@@ -1,0 +1,24 @@
+create tablespace tablespace_name       --创建一个名为   tablespace_name     的表空间
+logging  
+datafile 'd:\oracle\product\10.2.0\ordata\lis2011\LIS2011DATA01.dbf'         --文件路径
+size 32m      --初始大小
+autoextend on     --设置自动增长
+next 32m     --  一次增长32m
+extent management local;
+
+
+
+
+
+
+----建立用户
+
+create user user_name   identified by  password  default tablespace    tablespace_name       ---属于表空间tablespace_name的用户user_name，密码是password
+
+---授权用户连接、资源
+
+grant connect,resource to tako;
+
+---授予DBA用户
+
+grant dba to tako;

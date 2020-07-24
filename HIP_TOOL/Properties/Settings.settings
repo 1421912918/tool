@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="HIP_TOOL.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="HIP_TOOL_cn_com_webxml_www_WeatherWebService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://www.webxml.com.cn/WebServices/WeatherWebService.asmx</Value>
+    </Setting>
+    <Setting Name="HIP_TOOL_WebReference_DefaultAcceptMessageService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://192.168.4.66:8086/services/Mirth</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

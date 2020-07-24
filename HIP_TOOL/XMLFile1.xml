@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<library id="30">
+  <!--1是启用，0未启用；1只能有一个 -->
+  <his正式>
+    <IP>192.168.4.61/orcl</IP>
+    <user>system</user>
+    <password>manager</password>
+    <DataBase>oracle</DataBase>
+    <status>0</status>
+  </his正式>
+  <his测试>
+    <IP>192.168.3.115/cs15</IP>
+    <user>system</user>
+    <password>manager</password>
+    <DataBase>oracle</DataBase>
+    <status>0</status>
+  </his测试>
+  <his测试1>
+    <IP>192.168.3.115/cs15</IP>
+    <user>system</user>
+    <password>manager</password>
+    <DataBase>oracle</DataBase>
+    <status>1</status>
+  </his测试1>
+  <平台数据库>
+    <IP>192.168.100.29/hisdb</IP>
+    <user>system</user>
+    <password>manager</password>
+    <DataBase>oracle</DataBase>
+    <status>0</status>
+  </平台数据库>
+  <数据库4>
+    <IP>192.168.100.29/hisdb</IP>
+    <user>system</user>
+    <password>manager</password>
+    <DataBase>oracle</DataBase>
+    <status>0</status>
+  </数据库4>
+</library>
